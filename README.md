@@ -8,7 +8,7 @@ Term: Fall 2017
 
 + Citibike Data: (https://www.citibikenyc.com/system-data)
 + Weather Data: (https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:USW00094728/detail)
-+ ([CitibikeExplorer_Presentation.pdf](Citibike Explorer Presentation))	
++ ([CitibikeExplorer_Presentation.pdf](CitibikeExplorer_Presentation.pdf))	
 	
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
