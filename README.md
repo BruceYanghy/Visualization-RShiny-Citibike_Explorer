@@ -1,6 +1,6 @@
 # ADS Project 5: Citibike Explorer (https://brucehy.shinyapps.io/CitibikeExplorer/)
 
-![image](app/www/img/citibike2.jpeg)
+![image](app/www/img/citi-bike.jpg)
 
 
 Term: Fall 2017
