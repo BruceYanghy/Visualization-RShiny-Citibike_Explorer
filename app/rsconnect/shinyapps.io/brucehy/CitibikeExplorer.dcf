@@ -1,0 +1,12 @@
+name: CitibikeExplorer
+title: CitibikeExplorer
+username:
+account: brucehy
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 245007
+bundleId: 1414501
+url: https://brucehy.shinyapps.io/CitibikeExplorer/
+when: 1528284023.41196
+asMultiple: FALSE
+asStatic: FALSE

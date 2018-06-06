@@ -1,0 +1,152 @@
+/*/*/* Simple css theme for shiny app by Adam Gao. */
+
+body {
+    color: #000000;
+}
+
+/*/*/*/* Page background */
+#bg {
+    position: fixed;
+    background-image: url("img/citibike2_2.png");
+    background-repeat: no-repeat;
+   
+    background-position: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/* Navbar Tweaks */
+*.navbar-default {
+    background-color: #00008D;
+    border-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a {
+    color: #00008D;
+    background-color: #ebebeb;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+/* Universal font */
+*@font-face {
+    font-family: MyRaleway;
+    src: url("font/Raleway/Raleway-normal.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: MyRaleway;
+    src: url("fonts/Raleway/Raleway-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: MyRaleway;
+    src: url("font/Raleway/Raleway-Light.ttf");
+    font-weight: lighter;
+}
+
+
+@font-face {
+    font-family: MyRaleway;
+    src: url("font/Raleway/Raleway-Italic.ttf");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: MyRaleway;
+    src: url("font/Raleway/Raleway-ExtraBoldItalic.ttf");
+    font-weight: bolder;
+}
+
+* h1{
+    font-family: MyRaleway
+}
+* h2{
+    font-family: MyRaleway
+}
+
+* h3{
+    font-family: MyRaleway
+}
+
+* h4{
+    font-family: MyRaleway
+}
+* h5{
+    font-family: MyRaleway
+}
+
+/* Universal plain text font size */
+* p{
+    font-size: 100%;
+    font-family: MyRaleway
+}
+* strong{
+    font-size: 100%;
+    font-family: MyRaleway
+}
+
+/* full page map division */
+div.outer {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden; /* content excedes the window area will be hidden */
+    padding: 0;
+}
+
+
+
+/* control pad  */
+#controls {
+    background-color: white;
+    padding: 0 10px 10px 10px;
+    cursor: move;
+    /* Fade out while not hovering */
+    opacity: 0.9;
+    transition: opacity 500ms 1s;
+}
+
+#intro {
+    background-color: white;
+    padding: 0 10px 10px 10px;
+    cursor: move;
+    /* Fade out while not hovering */
+    opacity: 0.7;
+    transition: opacity 100ms 1s;
+}
+
+#controls1:hover {
+  /* Fade in while hovering */
+  opacity: 0.95;
+  transition-delay: 0;
+}
+
+#controls:hover {
+  /* Fade in while hovering */
+  opacity: 0.95;
+  transition-delay: 0;
+}
+
+/* tab footer  */
+*div.footer {
+    position: fixed;
+    top: 60px;
+    left: auto;
+    right: 10px;
+    bottom: 20px;
+    font-style: italic;
+    text-align: right;
+    color: grey;
+}
+
+
+.irs-from, .irs-to, .irs-min, .irs-max,.irs-single,.irs-grid{
+	visibility: hidden !important;
+}
+
